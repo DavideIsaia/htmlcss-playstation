@@ -3,6 +3,10 @@ section {
     padding: 2.5rem 0;
 }
 
+img {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -45,6 +49,11 @@ a:hover {
 
 .ms-btn-orange {
     background-color: #cd3d0f;
+}
+
+.ms-btn-blue {
+    background-color: #2d64e6;
+    color: white;
 }
 
 /* HEADER */
