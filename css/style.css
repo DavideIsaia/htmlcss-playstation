@@ -1,3 +1,27 @@
+/* COMMON */
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+}
+
+/* button style */
+.ms-button {
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    padding: 0.4rem 0.8rem;
+}
+
+/* button colors */
+
+.ms-btn-gray {
+    background-color: #363636;
+    color: white;
+}
+
+/* HEADER */
+
 /* sony-bar */
 .ms-sony-bar {
     background-color: black;
@@ -10,13 +34,23 @@
     margin-right: 1rem;
 }
 
-/* chevron */
-.ms-chevron {
-    display: inline-block;
+/* navbar */
+.ms-nav-link {
+    margin: 0 0.4rem;
 }
 
 .ms-nav-link img {
     width: 12px;
+}
+
+.ms-search {
+    line-height: 2rem;
+    margin: 0 1.5rem;
+}
+
+/* chevron */
+.ms-chevron {
+    display: inline-block;
 }
 
 .ms-chevron-hover {
