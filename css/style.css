@@ -1,4 +1,28 @@
-html {
-    /* debug */
+.ms-sony-bar {
     background-color: black;
+    height: 50px;
+}
+
+.ms-sony-bar img {
+    height: 60%;
+}
+
+.ms-chevron {
+    display: inline-block;
+}
+
+.ms-nav-link img {
+    width: 12px;
+}
+
+.ms-chevron-hover {
+    display: none;
+}
+
+.ms-nav-link:hover .ms-chevron-hover {
+    display: inline-block;
+}
+
+.ms-nav-link:hover .ms-chevron {
+    display: none;
 }
