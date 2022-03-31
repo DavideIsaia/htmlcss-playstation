@@ -23,9 +23,13 @@ a:hover {
 }
 
 .ms-subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     padding: 1.5rem 0;
+}
+
+.ms-white-section .ms-subtitle {
+    color: #5d5d5d;
 }
 
 /* button style */
@@ -124,4 +128,13 @@ a:hover {
 .ms-gallery-content img {
     width: 100%;
     border-radius: 15px;
+}
+
+/*PS5 overview */
+.ms-limits {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2d64e6;
 }
