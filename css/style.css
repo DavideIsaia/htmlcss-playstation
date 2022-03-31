@@ -14,9 +14,13 @@ a {
 }
 
 /* button colors */
-
 .ms-btn-gray {
     background-color: #363636;
+    color: white;
+}
+
+.ms-btn-gray:hover {
+    background-color: #5d5d5d;
     color: white;
 }
 
@@ -35,8 +39,8 @@ a {
 }
 
 /* navbar */
-.ms-nav-link {
-    margin: 0 0.4rem;
+.ms-nav-right {
+    flex-grow: 0;
 }
 
 .ms-nav-link img {
@@ -45,7 +49,12 @@ a {
 
 .ms-search {
     line-height: 2rem;
-    margin: 0 1.5rem;
+}
+
+.ms-nav-right .nav-item,
+.ms-nav-right .ms-button,
+.ms-nav-right .ms-search {
+    margin-right: 1.5rem;
 }
 
 /* chevron */
@@ -63,4 +72,13 @@ a {
 
 .ms-nav-link:hover .ms-chevron {
     display: none;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 675px;
+    color: white;
 }
