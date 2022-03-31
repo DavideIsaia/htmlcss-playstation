@@ -5,6 +5,17 @@ a {
     font-size: 1em;
 }
 
+.ms-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.ms-subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.5rem 0;
+}
+
 /* button style */
 .ms-button {
     display: inline-block;
@@ -82,3 +93,12 @@ a {
     height: 675px;
     color: white;
 }
+
+.jumbotron img {
+    width: 55%;
+    padding-bottom: 1.5rem;
+}
+
+/* .ms-align {
+    padding-top: 250px;
+} */
