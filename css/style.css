@@ -11,6 +11,13 @@ img {
     width: 100%;
 }
 
+.ms-gallery-content:hover,
+.accessory:hover,
+.ms-discount img:hover,
+.ms-box img:hover {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -173,6 +180,13 @@ a:hover {
 
 .accessory {
     height: 100%;
+    border-bottom: 3px solid transparent;
+    opacity: 0.5;
+}
+
+.accessory:hover, 
+.ms-active {
+    opacity: 1;
     border-bottom: 3px solid #3690d8;
 }
 
