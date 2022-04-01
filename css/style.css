@@ -205,11 +205,11 @@ a:hover {
     border-radius: 15px;
 }
 
-.ms-gallery-content {
+.ms-translate {
     transition: 1s;
 }
 
-.ms-gallery-content:hover {
+.ms-translate:hover {
     transform: translateY(-40%);
 } 
 
