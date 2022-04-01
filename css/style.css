@@ -112,11 +112,17 @@ a:hover {
 
 /* JUMBOTRON */
 .jumbotron {
-    background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
     height: 675px;
     color: white;
+}
+
+.ms-bg-jumbo {
+    background-image: url(../img/jumbo-bg.png);
+}
+.ms-bg-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 .jumbotron img {
