@@ -4,7 +4,7 @@ body {
 }
 
 section {
-    padding: 2.5rem 0;
+    padding: 5rem 0;
 }
 
 img {
@@ -14,7 +14,8 @@ img {
 .ms-gallery-content:hover,
 .accessory:hover,
 .ms-discount img:hover,
-.ms-box img:hover {
+.ms-box img:hover,
+footer img:hover {
     cursor: pointer;
 }
 
@@ -93,8 +94,8 @@ a:hover {
 /* sony-bar */
 .ms-sony-bar {
     background-color: black;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
 }
 
 .ms-sony-bar img {
@@ -155,7 +156,7 @@ a:hover {
 
 .ms-bg-jumbo {
     background-image: url(../img/jumbo-bg.png);
-    margin-top: 120px;
+    margin-top: 110px;
     padding: 20rem 0 3rem;
 }
 
@@ -207,4 +208,47 @@ a:hover {
     background-color: #161c3b;
     color: white;
     padding: 0;
+}
+
+/* footer */
+footer {
+    background-color: #00439c;
+    color: white;
+}
+
+.ms-ps-logo {
+    width: 6rem;
+}
+
+.ms-footer-globe {
+    display: inline-block;
+    margin: 2rem 0.7rem 0 0;
+}
+
+.ms-globe-icon {
+    width: 1.3rem;
+}
+
+/* footer list style */
+.ms-footer-list ul {
+    list-style: none;
+}
+
+.ms-footer-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.ms-footer-list li {
+    padding: 0.3rem;
+}
+
+/* footer bottom */
+.ms-sie-logo {
+    width: 9rem;
+}
+
+#ms-info {
+    text-decoration: underline;
+    color: white;
 }
