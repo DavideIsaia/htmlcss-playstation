@@ -205,7 +205,21 @@ a:hover {
     border-radius: 15px;
 }
 
-/*PS5 overview */
+.ms-gallery-content {
+    transition: 1s;
+}
+
+.ms-gallery-content:hover {
+    transform: translateY(-40%);
+} 
+
+.ms-selected-blue {
+    padding: 1px;
+    border: 3px solid #3690d8;
+    border-radius: 15px;
+}
+
+/*PS5 OVERVIEW */
 .ms-limits {
     text-transform: uppercase;
     text-align: center;
