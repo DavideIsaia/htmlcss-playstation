@@ -175,6 +175,35 @@ a:hover {
     display: none;
 }
 
+/* dropdown menu */
+.dropdown-menu img {
+    width: 50%;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: 4vw;
+}
+
+.ms-dropdown-list {
+    width: 90vw;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.ms-drop-item {
+    display: inline-block;
+}
+
+.ms-drop-dot a::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #2d64e6;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     background-position: center;
@@ -193,11 +222,6 @@ a:hover {
     background-image: url(../img/jumbo-bg.png);
     margin-top: 110px;
     padding: 20rem 0 3rem;
-}
-
-/* banner */
-.ms-bg-banner {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* GALLERY */
@@ -240,26 +264,31 @@ a:hover {
     border-bottom: 3px solid #3690d8;
 }
 
-/* new games */
+/* BANNER */
+.ms-bg-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* NEW GAMES */
 .ms-new-games {
     background-color: #1f1f1f;
     color: white;
 }
 
-/* ps plus */
+/* PS PLUS */
 .ms-ps-plus {
     background-color: #bebcbb;
     padding: 0;
 }
 
-/* ps now */
+/* PS NOW */
 .ms-ps-now {
     background-color: #161c3b;
     color: white;
     padding: 0;
 }
 
-/* footer */
+/* FOOTER */
 footer {
     background-color: #00439c;
     color: white;
